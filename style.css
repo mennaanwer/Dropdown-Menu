@@ -1,0 +1,44 @@
+body{
+	background-image: url(highway-2025863_1920.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.fullNav{
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	background-color: rgba(0,0,0,0.5);
+}
+nav{
+	position: relative;
+}
+#dropdown{
+	cursor: pointer;
+	user-select: none;
+	padding: 10px;
+	color: aliceblue;
+	background-color: rgba(0,0,0, 1);
+	border: none;
+	font-size: 25px;
+}
+#dropdown-list{
+	display: none;
+	background-color: rgba(0,0,0, 0.9);
+	position: absolute;
+	top: 23px;
+	padding: 20px;
+	text-align: center;
+	transition: 0.7s;
+}
+#dropdown-list a{
+	list-style-type: none;
+	padding: 5px;
+	text-decoration: none;
+	color: aliceblue;
+}
+.window{
+	text-align: center;
+	font-size: 20px;
+	color: aliceblue;
+	margin-top: 15%;
+}
